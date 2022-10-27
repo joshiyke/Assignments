@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.styled {
+    color: #810932;
+}
+
+.left_section {
+    background-image: url("img/index.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    margin: 100px auto;
+}
+
+div.container {
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 12px rgba(0, 0, 0, 0.19);
+
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="color"] {
+    border-radius: 20px;
+    height: 35px;
+    width: 90%;
+    margin: 8px 0px;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#gender {
+    border-radius: 20px;
+    height: 40px;
+    width: 80%;
+    margin: 8px 0px;
+    border: 2px solid #ccc;
+}
+
+
+i {
+    color: rgb(45, 45, 232);
+}
+
+button {
+
+    padding: 10px;
+    background-color: #7f082d;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+button a {
+    color: #ffffff;
+}
